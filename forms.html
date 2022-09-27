@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"  />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <title>forms</title>
+</head>
+<body>
+    <h1>Marvel Characters</h1>
+
+
+    <!-- the form tag is used to create a container where all the inputs for a form must be put inside.
+    the attributes that are required are name, id, and method -->
+    <label for="marvel-characters">Enter Name of marvel character:</label>
+    <form name="marvel-stuff" id="marvel" method="get">
+    <input type="text" name="characters" id="marvel-characters" required />
+    </br>
+    </br>
+
+    <!--this is a password input. type= "text, name and id are all required attributes the
+     required attribute is only necesary when you want to make sure the user has to fill 
+     in the input before submitting the form"-->
+
+    <label for="password">please enter your password [this is required]:</label>
+    </br>
+    <input type="password" name="UserPassword" id="password"/>
+    </form>
+</body>
+</html>
