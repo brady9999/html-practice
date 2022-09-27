@@ -15,9 +15,15 @@
     the attributes that are required are name, id, and method
 
     -->
-    <label for="marvel-characters">Enter Name of marvel character:</label>
+    <label for="marvel-characters">Enter Name Of Marvel Character:</label> 
+    </br>
+    <input type="radio" id="ironman" name="fav_character" value="ironman">
+    <label for="ironman">Ironman</label><br>
+    <input type="radio" id="captian america" name="fav_character" value="captian america">
+    <label for="captian america">Captian america</label><br>
+    </br>
     <form name="marvel-stuff" id="marvel" method="get">
-    <input type="text" name="characters" id="marvel-characters" required />
+    <input type="text" name="characters" id="marvel-characters" required /> <input type="reset"> <input type="checkbox">
     </br>
     </br>
     <!-- this is an email input. it requires type, name, and id.
@@ -26,9 +32,9 @@
         
          user and the maxlength to define the maxlength entered
     -->
-    <lable for="email">enter email:</lable>
+    <lable for="email">Enter Email:</lable> 
     </br>
-    <input type="email" name="UserEmail" id="email" minlength="6" maxlength="50"   />
+    <input type="email" name="UserEmail" id="email" minlength="6" maxlength="50" /> <input type="reset"> <input type="checkbox">
     </br>
     <!--this is a password input. type= "text, name and id are all required attributes the
 
@@ -37,12 +43,21 @@
      in the input before submitting the form
     
     -->
+
+    
     </br>
-    <label for="password">please enter your password [this is required] (minimum length is 10 characters):</label>
+    <label for="password">Please Enter Your Password [This Is Required] (Minimum Length Is 10 Characters):</label> 
     </br>
-    <input type="password" name="UserPassword" id="password" minlength="10"  />
+    <input type="password" name="UserPassword" id="password" minlength="10"  /> <input type="reset"> <input type="checkbox">
+    </br>
     </br>
     <input type="submit">
+    </br>
+    </br>
+    <label for="story">Tell me you story:</label>
+    </br>
+    <textarea id="story" name="story" rows="5"  cols="33>"></textarea>
+    </br>
     </form>
 </body>
 </html>
